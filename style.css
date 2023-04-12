@@ -14,7 +14,7 @@ body {
 img {
     border-radius: 15px;
 }
-li {
+.center li {
     list-style: none;
 }
 a{
@@ -23,4 +23,27 @@ a{
 }
 a:hover{
     color: rgb(171, 117, 221);
+}
+#conteudo{
+    width: 500px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 15px;
+    background-color: azure;
+}
+#conteudo h2 {
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+}
+#conteudo h4 {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#conteudo img {
+    width: 500px;
 }
